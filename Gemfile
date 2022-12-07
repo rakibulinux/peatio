@@ -56,6 +56,7 @@ gem 'vault-rails', git: 'http://github.com/rubykube/vault-rails'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'net-http-persistent', '~> 3.0.1'
 gem 'influxdb', '~> 0.7.0'
+gem 'nats-pure', '~> 2.2', '>= 2.2.1'
 gem 'safe_yaml', '~> 1.0.5', require: 'safe_yaml/load'
 
 group :development, :test do
